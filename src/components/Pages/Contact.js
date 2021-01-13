@@ -9,7 +9,7 @@ function Contact() {
     <div className="contact-container">
 
         
-<Row className="about-Nav" >
+        <Row className="about-Nav" >
 
           <Col className="justify-content-center">
             <NavTabs />
