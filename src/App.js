@@ -2,9 +2,9 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Home from "./components/pages/Home";
-import Portfolio from "./components/pages/Portfolio";
-import Contact from "./components/pages/Contact";
+import Home from "./components/Pages/Home";
+import Portfolio from "./components/Pages/Portfolio";
+import Contact from "./components/Pages/Contact";
 
 function App() {
   return (

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./NavTabs.css";
 
 function NavTabs() {
-    
+
   return (
     <div className="nav-wrapper">
-    <ul className="nav">
+    <ul className="nav color-nav">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Emmanuel Durand
@@ -29,8 +30,8 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/home"
-          className={window.location.pathname === "/home" ? "nav-link active" : "nav-link"}
+          to="/"
+          className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
           Home
         </Link>
